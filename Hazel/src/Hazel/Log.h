@@ -3,6 +3,7 @@
 #include "Core.h"
 #include "spdlog/spdlog.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
+#include "spdlog/fmt/ostr.h" // 加入这个库是为了能够记录自定义类型
 
 namespace Hazel {
 	class HAZEL_API Log
