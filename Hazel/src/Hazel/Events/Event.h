@@ -4,11 +4,6 @@
 // 这里一开始会显示无法找到源文件
 // 在视频末尾会演示如何修改premake5.lua来新增包含文件夹
 
-#include <string>
-#include <functional>
-
-// 加入<sstream>库，否则在另外三个头文件中创建stringstream类的对象时会报错
-#include <sstream>
 
 
 namespace Hazel {
